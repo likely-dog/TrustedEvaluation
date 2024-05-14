@@ -120,14 +120,12 @@ def Adversarial_Dataset(filename, mode):
         filepath = TQAfolder + f'/multiattacked/TruthfulQAMultictest_under{mode}attack.csv'
     return filepath
 
-# fp = Adversarial_Dataset('flipkart', 'character')
-# print(fp)
+
 # """
 # 任务：使用ollama的方式加载模型,并运行数据集
 # 输入：模型名称，数据集路径，是否为受攻击的文件,提示类型
 # 输出：生成答案结果的csv文件，以及模型的回答结果所保存的地址
-# """
-# TODO:使用ollama_un模块的调用方法生成测试结果
+
 
 def RunModel(dataset, modelname, filepath, isattacked, prompt):
     replylist = []
@@ -149,18 +147,14 @@ def RunModel(dataset, modelname, filepath, isattacked, prompt):
     prompttype = "F"if prompt ==1 else "Z"
     modelname = modelname.replace(":","")
     new_filename = f"{rfilename}_{modelname}_{prompttype}_results"
-    # new_file = filepath.rsplit('/', 1)[0] + '/{rfilename}_{modelname}_{prompttype}_results.csv'
-    # new_file = new_file.format(rfilename, modelname, prompttype)
+   
     new_filepath = str(new_filename + rfile_extension)
-    # print(pques, ans, replylist)
     max_len = max(len(pques), len(ans), len(replylist))
     pques += [''] * (max_len - len(pques))
     ans += [''] * (max_len - len(ans))
     replylist += [''] * (max_len - len(replylist))
 
     content = {'question': pques, 'answer': ans, 'result': replylist}
-    # df = pd.DataFrame(data)
-    # content = [{'question': q, 'answer': a, 'result': r} for q, a, r in zip(pques, ans, replylist)]
     df = pd.DataFrame(content)
     # print(content)
     df.to_csv(new_filepath, index=False, encoding='utf-8')
@@ -313,13 +307,6 @@ def Calculate_Scores(filepath, dataset, isattacked):
             print(similarty)
             with open(newtxtpath, 'a', encoding='utf-8') as f:
                 f.write("The similarity to original test set is " + str(imports.np.mean(similarty)) + ".")
-
-# Calculate_Scores("../originaldataset/Math23K/Math23Ktest_qwen7b_F_results.csv","codah",0)
-# Calculate_Scores("../originaldataset/Math23K/Math23Ktest_qwen7b_Z_results.csv","tqas",0)
-# Calculate_Scores("../originaldataset/Math23K/attacked/Math23K_undercharacterattack_qwen7b_F_results.csv","translation",0)
-# Calculate_Scores("../originaldataset/Math23K/attacked/Math23K_undersentenceattack_qwen7b_F_results.csv","math23k",0)
-Calculate_Scores("../originaldataset/TruthfulQAdata/TruthfulQAMultictest_llama27b_F_results.csv","tqam",0)
-
 
 if __name__ == '__main__':
 
