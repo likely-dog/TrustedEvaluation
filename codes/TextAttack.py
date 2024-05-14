@@ -123,8 +123,7 @@ def transback_noise(sentences, lang):
             trans.append(tran)
     return trans
 
-# a = word_noise("甲乙两辆汽车同时从同一地点向相反的方向行驶，4小时后两车相距300千米，已知甲车每小时行40千米，乙车每小时行多少千米？",lang='cn')
-# print(a)
+
 # 输入：问题列表，攻击模式
 # 输出：攻击后的问题列表,攻击次数列表和替换词对列表（如果有的话）
 def attack(sentences, mode):
@@ -154,6 +153,5 @@ def attack(sentences, mode):
 
     return result, attack_num if len(attack_num) > 0 else None , changelist if len(changelist)> 0 else None
 
-# temp = attack_cn(["甲乙两辆汽车同时从同一地点向相反的方向行驶，4小时后两车相距300千米，已知甲车每小时行40千米，"], "sentence")
-# print(temp)
+
 
