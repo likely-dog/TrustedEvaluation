@@ -4,20 +4,18 @@
 # 输出：测试集文件路径
 def getfilepath(filename):
     if filename == 'codah':
-        filepath = '../originaldataset/CODAH/CODAHtest.csv'
+        filepath = '../test_sets/CODAHtest.csv'
     elif filename == 'flipkart':
-        filepath = '../originaldataset/Flipkart/Flipkarttest.csv'
+        filepath = '../test_sets/Flipkarttest.csv'
     elif filename == 'math23k':
-        filepath = '../originaldataset/Math23K/Math23Ktest.csv'
+        filepath = '../test_sets/Math23Ktest.csv'
     elif filename == 'translation':
-        filepath = '../originaldataset/translation2019zh/translation2019zhtest.csv'
+        filepath = '../test_sets/translation2019zhtest.csv'
     elif filename == 'tqas':
-        filepath = '../originaldataset/TruthfulQAdata/TruthfulQAMultictest.csv'
+        filepath = '../test_sets/TruthfulQAMultictest.csv'
     elif filename == 'tqam':
-        filepath = '../originaldataset/TruthfulQAdata/TruthfulQAMultictest.csv'
+        filepath = '../test_sets/TruthfulQAMultictest.csv'
     else:
-        raise ValueError("数据集不存在")
+        raise ValueError("测试集不存在")
     return filepath
 
-# path = getfilepath(input("输入文件夹名字:"))
-# print(path)
