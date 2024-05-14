@@ -1,6 +1,6 @@
 from datetime import datetime
 
-logpath = "../log/log.txt"
+logpath = "log.txt"
 def mylog(content):
     with open(logpath, "a",encoding='utf-8') as fp:
         now = datetime.now()
