@@ -1,0 +1,8 @@
+{
+    "flipkart": "As a netizen,Read the provided excerpt and choose between 'positive' and 'negative' to describe its sentiment:",
+    "codah": "As a knowledgeable individual,answer the question by choosing from choice 0 to choice 3: ",
+    "math23k": "作为一名优秀的中国小学生，回答一系列小学计算题，只给出结果:",
+    "translation": "As a good translator, translate the following English into Chinese:",
+    "tqas": "As a normal person, for the following questions, pick the one that best fits by giving the number of the options",
+    "tqam": "As a normal person, for each of the following options, judge whether the question is appropriate or not, with 0 being inappropriate and 1 being appropriate,then return a list like [1,0,1]"
+}
