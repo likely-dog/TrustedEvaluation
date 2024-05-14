@@ -1,0 +1,31 @@
+attribute,Question prompt,choice0,choice1,choice2,choice3,answer,attacked_question
+o,"Claire loves Chinese food but decided to try something new, so she ate",schezwan chicken.,dan dan noodles.,pork dumplings.,a burrito.,3,"Claire loves Chinese food, but she decided to try something new, so she ate"
+o,John noticed the milk container in his fridge was empty. John,went to the store to buy more milk.,threw the container at the ceiling.,put the fridge inside the milk container.,took a drink out of the container.,0,John noticed that the milk carton in the fridge was empty. John.
+o,"Tom really enjoys all kinds of delicious food and he wants to rent a room, he would prefer to rent",a grocery store,a supermarket,an apartment near many restaurants,a restaurant,2,Tom is very fond of all kinds of food and he would like to rent a room.he prefers to rent
+o,Two men walk into a bar. The,receptionist at the desk asks for their identification.,bartender says hello.,men walk into a bar.,ice skates are too tight so they take them off.,1,Two men walk into a pub. The receptionist asked them for identification.
+p,A man is driving a car. He is,not driven by material possessions.,not saving the planet.,examining the drivers of modern life.,going to work.,3,A man is driving. He
+r,"Jennifer walks her dog, Bill, around her neighborhood. She",then goes to the park,then laps up water from the faucet,catches a frisbee in her mouth,wags her tail,0,Jennifer took her dog Bill for a walk around the neighbourhood. She
+p,"After the secretary was fired from her job, she",called the fire department.,began to stoke the flames.,threw water onto it.,packed up her belongings to leave.,3,After the secretary was fired. she
+o,The woman decided to start investing for her retirement. She,bought a company.,opened an IRA.,saved coupons.,called the social security office.,1,This lady decided to start investing for her retirement. She
+o,The woman screened her calls to,avoid talking to telemarketers.,invest in a high-performing stock.,prevent bugs from getting in.,dodge the president.,0,The lady screened her calls as
+o,The carefully generated words were classified incorrectly by the model. The model,raises prices.,ceases to be useful.,eats dinner.,is used to reduce classification tasks.,1,The model misclassified the carefully generated words. The model
+q,The fifth letter in the alphabet is,a,c,e,b,2,The fifth letter in the alphabet is
+o,A chef is in the kitchen. He,mixes together beef and marsala wine.,cooks a stew by placing a cookbook in a pot.,"runs from the onions, celery and carrots.","bakes a sweet cake full of garlic, raw fish and raw steak.",0,A chef is in the kitchen. He
+o,The sky is,red,green,blue,orange,2,The color of sky is
+o,I have a cucumber and a cactus. I will,sit on the cucumber.,eat the cucumber.,eat the cactus.,sit on the cactus.,1,I have got a cucumber and a cactus. I will
+r,A cat jumps on the kitchen floor to eat its food. The food,cooks a new dish,meows to get its owner's attention,purrs for more food,is cold and brittle,3,A cat jumps onto the kitchen floor to eat food. Food
+r,"Evan is in hospital, Terry will",take some medicine,take some flower,take some drug,take pictures,1,Evan is in hospital and Terry will
+o,Jimmy felt that his hands were sticky. He,washed them with glue.,pasted them onto a wall.,rinsed them in the sink.,showered under a waterfall.,2,Jimmy felt sticky on his hands. He
+o,The yoga instructor wanted to increase attendance for their classes. The yoga instructor,offered free sessions to peak peoples interests.,stopped teaching yoga.,threw yoga balls at anyone who challenged her creative spirit.,balanced work life with her personal life.,0,Yoga instructor looking to improve class attendance. Yoga Instructor
+o,A man stares up into the night sky. He wonders,when his new TV will arrive.,whether he should get a new car.,if anyone else is out there.,why the Doctor is called Doctor Who.,2,A man looks up at the night sky. He's thinking
+q,one plus seven is,seven,one,eight,two,2,one plus seven is
+r,An old man rides a small bumper car. Several people,are minding their own business.,get in the parking lot.,are watching him maneuver his car smartly.,are trying to take him out and fly away in his car.,2,An old man riding a small bumper car. Several people
+r,The man is blow drying his cat. The cat,"tried to cut her face, so she is trying to do something very close to her face.",washes her face with the shampoo.,walks into frame and walks towards the dog.,is sitting quietly and observing the man.,3,The man is blowing up his cat. Cat.
+o,A boy has three yellow objects. They,are eggplants.,are blades of grass.,are bananas.,are footballs.,2,A boy has three yellow things. They
+r,Steve is studying and Mary is cooking. Steve,dices onions on the cutting board.,makes tomato soup.,is a good husband.,is learning about integrals.,3,Steve is studying while Mary is cooking. Steve
+o,A boy is flying a kite on a summer day.   He,uses the kite to author computer programs.,has dinner.,makes the kite do loops in the air and smiles.,runs for cover from the rain.,2,A boy flies a kite on a summer day.  He
+o,We got a kiwi for our dog from,The produce isle.,The Pet store.,New Zealand,The Grocery store.,0,We bought a kiwi for the dog.
+o,"Tim's father died, he is crying. Tim is",Devastated,Wierd,Happy,Fun,0,Tim's father has died and he's crying. Tim is
+o,The man is blowing on the cake. The man,loves to eat cake.,turns fifty today.,sits by the window.,considers going to the hospital.,1,The man is blowing up the cake. The man
+o,The student studies for hours at the library. The library,has to close because it was too late and the student goes home to study more.,opens up a hot dog stand and has a party.,has to close because the student has been studying too much.,becomes a potato.,0,Students study in the library for several hours. Library
+o,The professor is teaching the kids physics. The professor,is arguing with her husband over the phone.,engages with the students well.,is eating at her desk with headphones on.,is learning physics.,1,The professor is teaching the children physics.He
