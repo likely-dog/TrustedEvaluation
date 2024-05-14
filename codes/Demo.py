@@ -125,7 +125,7 @@ def Adversarial_Dataset(filename, mode):
 # 任务：使用ollama的方式加载模型,并运行数据集
 # 输入：模型名称，数据集路径，是否为受攻击的文件,提示类型
 # 输出：生成答案结果的csv文件，以及模型的回答结果所保存的地址
-
+# """
 
 def RunModel(dataset, modelname, filepath, isattacked, prompt):
     replylist = []
@@ -165,7 +165,7 @@ def RunModel(dataset, modelname, filepath, isattacked, prompt):
 # 输入：模型的回答结果所保存的文件目录
 # 输出：各项得分细节保存csv文件中，总的平均得分保存在txt文件
 # """
-# TODO：使用calscore模块的方法计算
+
 def Calculate_Scores(filepath, dataset, isattacked):
     df = pd.read_csv(filepath)
     ans = df['answer'].tolist()
@@ -317,7 +317,7 @@ if __name__ == '__main__':
     if choice1 == 'Y':
         # 对抗数据集生成
         # 数据集名称：codah,flipkart,math23k,translation,tqas,tqam,分别代表六个数据集
-        # 数据攻击模式：character,word,sentence,分别代表字符级，词语级，句子级攻击
+        # 数据攻击模式：character,word,sentence,分别代表字符级，词语级，句意级攻击
         dataset, mode = input('分别输入要攻击的数据集名称和攻击模式:')
         if (dataset not in datasetname) or (mode not in attackmode):
             raise ValueError("数据集或者攻击模式不存在")
