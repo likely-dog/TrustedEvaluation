@@ -30,6 +30,3 @@ def calculate_similarity(ref_list, res_list):
     res_vectors = [text_to_vector(text, vocab) for text in res_list]
     anslist = [cosine_similarity(ref_vec, res_vec) for ref_vec, res_vec in zip(ref_vectors, res_vectors)]
     return anslist
-
-# anslist = calculate_similarity(["这是一个小狗"],["这是一个小猫"])
-# print(anslist)
