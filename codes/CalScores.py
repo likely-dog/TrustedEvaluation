@@ -20,15 +20,7 @@ def en2cn_similarity(sentences1, sentences2):
     answerlist = CnSimilarity.calculate_similarity(sentences1, sentences2)
     for x in answerlist:
         similarity += x
-    # for ref_answer, res_answer in zip(sentences1, sentences2):
-    #     if ref_answer and res_answer:
-    #         similarity += CnSimilarity.similarity(ref_answer, res_answer)
-    #         similarity += (ref_answer + res_answer)/2
-    #     else:
-    #         similarity += 0
-    print(answerlist)
 
-    print(similarity/min(len(sentences1), len(sentences2)))
     return similarity/min(len(sentences1), len(sentences2))
 
 # en2cn_similarity(['你好','这是一条小狗','你说什么'],['你好呀','这是一只小狗'])
