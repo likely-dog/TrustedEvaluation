@@ -11,11 +11,11 @@ import DataCleaning
 import CalScores
 import FileProcess
 
-codahfolder = '../originaldataset/CODAH'
-flipkartfolder = '../originaldataset/Flipkart'
-math23kfolder = '../originaldataset/Math23K'
-translatefolder = '../originaldataset/translation2019zh'
-TQAfolder = '../originaldataset/TruthfulQAdata'
+codahfolder = '../test_sets'
+flipkartfolder = '../test_sets'
+math23kfolder = '../test_sets'
+translatefolder = '../test_sets'
+TQAfolder = '../test_sets'
 
 modelname = ['gemma:2b', 'gemma:7b', 'llama2:7b', 'llama2:13b', 'llama2-chinese:7b', 'llama2-chinese:13b' 'mistral:7b', 'qwen:4b', 'qwen:7b', 'qwen:14b', 'qwen:32b']
 datasetname = ['codah', 'flipkart', 'math23k', 'translation', 'tqas', 'tqam']
