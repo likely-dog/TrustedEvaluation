@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 import imports
 
-foldername = '..\originaldataset'
-ZSname = '..\originaldataset\ZPrompts.json'
-FSname = '..\originaldataset\FSamples.json'
+ZSname = '..\test_sets\ZPrompts.json'
+FSname = '..\test_sets\FSamples.json'
 
 # 生成带提示的问题序列
 # 输入：问题列表，数据集名称
